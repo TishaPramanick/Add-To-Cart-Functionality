@@ -1,0 +1,37 @@
+.theme-box{
+    background-color: rgb(40, 40, 40);
+    border : none;
+    width : 50px;
+    height : 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.theme-box:has(.btn:checked)
+{
+    background-color: rgb(177, 177, 177);
+    box-shadow: 2px 2px 4px inset rgb(78, 78, 78);
+}
+.btn{
+    position: absolute;
+    appearance: none;
+    margin: 0 4px;
+    padding: 0;
+    width: 35%;
+    aspect-ratio: 1;
+    border : none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    left : calc(100% - 35% - 8px);
+    transition: 0.4s all;
+
+}
+.btn:checked{
+    left: 0;
+    background-color: rgb(80, 80, 80);
+}
+.dark{
+    background-color: rgb(125, 125, 125);
+}

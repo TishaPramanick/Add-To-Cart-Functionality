@@ -1,0 +1,120 @@
+.cart-box{
+    min-width: 500px;
+    max-width: 700px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 5px  rgb(55, 54, 53);
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.title{
+    
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(75, 50, 0);
+}
+.cart-item-ul{
+    width: 100%;
+    max-height : 210px;
+    list-style: none;
+    padding: 8px 4px 8px 8px;
+    overflow: auto;
+}
+.cart-item-ul::-webkit-scrollbar{
+    width: 4px;
+}
+.cart-item-ul::-webkit-scrollbar-thumb{
+    background-color:  rgb(75, 50, 0);
+    
+}
+.cart-item-lists{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.single-item-list-ul{
+ list-style: none;
+}
+.single-item-name{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 171, 4);
+}
+.single-item-details{
+    display: flex;
+    justify-content: space-between;
+}
+.single-item-price{
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 13px;
+}
+.single-item-count{
+    color: black;
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+    padding: 0 2px;
+}
+.addBtn , .removeBtn{
+    border:none;
+    outline : none;
+    font-size: large;
+    font-weight: bold;
+    background-color: gray;
+    color: white;
+    padding:1px 5px;
+    border-radius: 1px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.removeBtn{
+    font-size: larger;
+    padding:0px 6px;
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+.cart-amt-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 9px 0;
+    border-top: 2px solid rgb(75, 50, 0);
+}
+.amtText{
+    font-weight: bold;
+    font-size: larger;
+}
+.amt{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.cart-btns{
+    display: flex;
+    justify-content: space-around;
+    margin : 10px 0;
+}
+.close-btn , .proceed-btn{
+    width : 50%;
+    border:none;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:  rgb(255, 170, 0);
+    color:  rgb(75, 50, 0);
+    box-shadow: -1px 1px 2px black;
+    cursor: pointer;
+}
+.proceed-btn{
+    background-color: rgb(66, 66, 66);
+    color:  white;
+    box-shadow: 1px 1px 2px black;
+    margin-left: 5px;
+}

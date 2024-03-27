@@ -1,0 +1,21 @@
+.single-item-box{
+    list-style: none;
+   
+}
+.itemName{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.description{
+    opacity: 75%;
+    font-size: medium;
+    margin-bottom: 5px;
+
+}
+.price{
+    color: rgb(194, 155, 27);
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}

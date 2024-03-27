@@ -1,0 +1,30 @@
+.button{
+   background-color: rgb(40, 40, 40); 
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   justify-content: center;
+   border: none;
+   outline: none;
+   color: whitesmoke;
+   padding: 5px 10px;
+   border-radius: 15px;
+   cursor: pointer;
+}
+.icon img{
+    width: 24px;
+    aspect-ratio: 1;
+    margin-right: 8px;
+}
+.cart-item-count{
+    display: block;
+    background-color: gray;
+    width : 24px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    box-shadow : 1px 1px 7px inset rgb(165, 165, 165);
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 26px;
+}

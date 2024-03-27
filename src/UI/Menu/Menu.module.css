@@ -1,0 +1,41 @@
+.menu-item-box{
+    width : 80%;
+    height : 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(227, 227, 227);
+    border-radius: 10px;
+    overflow-y: auto;
+}
+.menu-item-box::-webkit-scrollbar{
+    width: 8px;
+}
+.menu-item-box::-webkit-scrollbar-track{
+    background : none;
+}
+.menu-item-box::-webkit-scrollbar-thumb{
+    background-color:  rgb(255, 212, 71);
+    border-radius: 10px;
+    height: 20px;
+    
+}
+.menu-items{
+    color: black;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    animation: menuitem-load 1s ease-out forwards;
+    border-bottom: 2px solid rgb(107, 82, 0);
+    padding: 8px;
+}
+
+/* @keyframes menuitem-load {
+    from{
+        transform: translateY(30px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+} */
